@@ -142,12 +142,12 @@ function log(o) {
 							</li>
 							
 							<li role="presentation" class="divider"></li>
-							<li role="presentation">
+							<!-- <li role="presentation">
 								<a href="/member/blog/index" target="_blank">
 								<i class="fa fa-bold"></i> 
 								{{msg . "blogSet"}}
 								</a>
-							</li>
+							</li> -->
 							
 							<li role="presentation" class="my-link" >
 								<a target="_blank" href="{{$.userInfo.BlogUrl}}">
@@ -178,7 +178,7 @@ function log(o) {
 						</ul>
 					</div>
 				</div>
-				<div class="pull-right top-nav writting-hide lea-blog">
+				<!-- <div class="pull-right top-nav writting-hide lea-blog">
 					<a target="_blank" href="http://lea.leanote.com"> 
 						{{msg . "Explore"}}
 					</a>
@@ -187,11 +187,11 @@ function log(o) {
 				<div class="pull-right top-nav writting-hide" id="myBlog">
 					<a target="_blank" href="{{$.blogUrl}}/{{.userInfo.Username}}"> 
 						{{msg . "myBlog"}}
-					</a>
+					</a> -->
 				</div>
-				<div class="pull-right toggle-editor-mode top-nav" id="toggleEditorMode">
+				<!-- <div class="pull-right toggle-editor-mode top-nav" id="toggleEditorMode">
 					<a href="#writing"><span>{{msg . "writingMode"}}</span></a>
-				</div>
+				</div> -->
 				
 				{{if eq .userInfo.Email "demo@leanote.com"}}
 				{{if .openRegister}}					
